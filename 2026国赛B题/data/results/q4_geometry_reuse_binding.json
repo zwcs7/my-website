@@ -1,0 +1,19 @@
+{
+  "exactCodeMatch": true,
+  "functions": {
+    "q4Plane": true,
+    "q4Wedge": true,
+    "q4ClipDisk": true,
+    "q4Remember": true,
+    "q4JointShadow": true,
+    "q4RingLayout": true,
+    "q4_cover_certificate": true,
+    "q4_verify_cover": true,
+    "q4CoverageChecks": true,
+    "q4Transport": true,
+    "q4SafeClearPoint": true
+  },
+  "baselineSha256": "eae757dc0d18ec81d48e1ac14af80702b31a89ae37806820db5b00a4771a11ec",
+  "candidateSha256": "1663216f1d25d15be7c085c8b8625b2b68f6e1c7d63e338a0fe5b98029f804df",
+  "note": "Radio geometry, ring coverage, safe clear certificate and transport unchanged. Adaptive optical geometry has separate 133-check verification."
+}

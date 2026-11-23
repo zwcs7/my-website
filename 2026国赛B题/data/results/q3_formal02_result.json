@@ -1,0 +1,27 @@
+{
+  "status": "FORMAL_COMPLETED",
+  "complete": true,
+  "mode": "formal",
+  "problem": 3,
+  "version": "0.12.0-work-study",
+  "caseCode": "NYF9-ABYD-MN6T-A9HX",
+  "variant": "seven_geometry",
+  "clearedCount": 12,
+  "virtualTime_s": 3424.081991,
+  "meanClearTime_s": 285.34016591666665,
+  "clientProgramElapsed_s": 35.322359799999994,
+  "acceptedActions": 134,
+  "timeResidual_s": 1.0228250175714493E-6,
+  "timeTolerance_s": 0.0001351,
+  "unresolved": false,
+  "failure": {
+    "identifier": "",
+    "message": "",
+    "stack": []
+  },
+  "logErrors": [],
+  "callbackErrors": [],
+  "path": "SOURCE_WORKSPACE\\Desktop\\数学建模\\codex\\CUMCM2026解题\\问题三\\内部记录\\联合信息路线重构_20260913_210\\formal02_NYF9_20260913",
+  "evidence": "OFFICIAL_FORMAL_PUBLIC_HTTP",
+  "saveErrors": []
+}

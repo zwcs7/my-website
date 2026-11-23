@@ -1,0 +1,39 @@
+{
+  "complete": true,
+  "stopReason": "directional_coverage_and_all_discovered_cleared",
+  "status": [
+    2,
+    2,
+    2,
+    3,
+    3,
+    2,
+    2,
+    3,
+    2,
+    3,
+    2,
+    3,
+    2,
+    3,
+    2,
+    3,
+    3,
+    3,
+    2,
+    3
+  ],
+  "virtualTime_s": 5889.001787,
+  "cleared": 10,
+  "costs": [
+    4112.0017852794726,
+    1450,
+    274,
+    50,
+    3
+  ],
+  "failure": {
+    "identifier": "",
+    "message": ""
+  }
+}

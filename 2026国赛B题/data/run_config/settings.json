@@ -1,0 +1,11 @@
+{
+  "layout": "ring22",
+  "strategy": "safe",
+  "optical": "nearest",
+  "serviceOrder": "joint_steps",
+  "coverageOrder": "open_route",
+  "opportunistic": false,
+  "coveragePolicy": "fixed",
+  "tailMinimumClears": 15,
+  "localPolicy": "active_clear"
+}

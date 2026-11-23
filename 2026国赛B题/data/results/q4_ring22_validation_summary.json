@@ -1,0 +1,50 @@
+{
+  "allPassed": true,
+  "checks": [
+    {
+      "name": "valid_continuous_certificate",
+      "passed": true
+    },
+    {
+      "name": "reject_mutation_1",
+      "passed": true
+    },
+    {
+      "name": "reject_mutation_2",
+      "passed": true
+    },
+    {
+      "name": "reject_mutation_3",
+      "passed": true
+    },
+    {
+      "name": "reject_mutation_4",
+      "passed": true
+    },
+    {
+      "name": "reject_mutation_5",
+      "passed": true
+    },
+    {
+      "name": "reject_mutation_6",
+      "passed": true
+    },
+    {
+      "name": "original_ring_explicit_counterexample",
+      "passed": true
+    }
+  ],
+  "verification": {
+    "passed": true,
+    "reason": "complete_partition_and_independent_vertex_checks",
+    "minimumRangeSlack": 0.0044247481964703184,
+    "minimumHullSlack": 0.19121574405689884,
+    "checkedCells": 5903
+  },
+  "counterexamplePosition": [
+    -419.42594432322085,
+    -841.23829990590332
+  ],
+  "counterexampleDirection_deg": 236.64084891933658,
+  "counterexampleRange_m": 1000
+}

@@ -1,0 +1,161 @@
+{
+  "savedAt": "2026-09-13T01:17:20+08:00",
+  "adoption": {
+    "adoptedAt": "2026-09-13T01:17:20+08:00",
+    "decision": "USER_ADOPTED_FROZEN_ALGORITHM_FOR_LOGIC_AND_PAPER_WORK",
+    "sourceSha256": "1663216f1d25d15be7c085c8b8625b2b68f6e1c7d63e338a0fe5b98029f804df",
+    "sourceOrigin": "SOURCE_WORKSPACE\\Desktop\\数学建模\\codex\\CUMCM2026解题\\问题四\\内部记录\\主动定位与清除联合规划_20260913_25\\adaptive_candidate\\q4_solver.m",
+    "settings": {
+      "layout": "ring22",
+      "strategy": "safe",
+      "optical": "nearest",
+      "serviceOrder": "joint_steps",
+      "coverageOrder": "open_route",
+      "opportunistic": false,
+      "coveragePolicy": "fixed",
+      "tailMinimumClears": 15,
+      "localPolicy": "active_clear"
+    },
+    "settingsSha256": "bd9a7820a80b17ad9901de816fef897117129363eacf8af59b8b6bba80fb4b80",
+    "fullReleaseGateComplete": false,
+    "humanProofReviewComplete": false,
+    "formalRuns": 0,
+    "newOptimizationRunsAuthorizedByCloseout": false,
+    "userInstruction": "可以可以，我感觉已经很好了，就用这个方案吧，还有什么需要收尾的吗，没有的话就保存一下相关记录，我一会开新对话去完善整个方案的逻辑和论文素材"
+  },
+  "practices": {
+    "cases": 3,
+    "sourceCount": 40,
+    "cleared": 40,
+    "totalTime_s": 18304.136228,
+    "target500Cases": 2,
+    "requestResponsePairs": 799,
+    "retries": 0,
+    "transportErrors": 0,
+    "checks": 101,
+    "fullClear": true,
+    "sourceSha256": "1663216f1d25d15be7c085c8b8625b2b68f6e1c7d63e338a0fe5b98029f804df",
+    "pooledSecondsPerSource": 457.6034057,
+    "equalCaseSecondsPerSource": 458.7048815384615,
+    "costComponents_s": {
+      "movement_s": 13862.136228802063,
+      "measurement_s": 3370.0,
+      "switching_s": 635.0,
+      "successful_clear_s": 200.0,
+      "failed_clear_s": 237.0
+    }
+  },
+  "development": {
+    "cases": 21,
+    "allCleared": true,
+    "meanTime_s": 5963.923463425624,
+    "meanBaseline_s": 6978.161857947511,
+    "meanChangePercent": -14.534463590390335,
+    "pooledSecondsPerSource": 416.08768349481096,
+    "equalCaseMeanSecondsPerSource": 429.8708163384168,
+    "target500": 15,
+    "regressions": 1,
+    "worstRegressionPercent": 5.7061950230645,
+    "maxWallTime_s": 13.9655248,
+    "actions": 6097,
+    "decisions": 1209,
+    "status": "SELF_CHECKED_NOT_HUMAN_AUDITED_NOT_FORMAL"
+  },
+  "holdout": {
+    "cases": 21,
+    "allCleared": true,
+    "meanTime_s": 5936.232463670259,
+    "meanBaseline_s": 7137.142108996499,
+    "meanChangePercent": -16.826197755155683,
+    "pooledSecondsPerSource": 414.1557532793204,
+    "equalCaseMeanSecondsPerSource": 429.52152373941664,
+    "target500": 17,
+    "regressions": 1,
+    "worstRegressionPercent": 1.87889697029852,
+    "maxWallTime_s": 22.0799786,
+    "actions": 6247,
+    "decisions": 1223,
+    "status": "SELF_CHECKED_NOT_HUMAN_AUDITED_NOT_FORMAL"
+  },
+  "validation": {
+    "passed": 133,
+    "total": 133,
+    "allPassed": true,
+    "mutations": 3,
+    "decisionChecks": 94,
+    "matlab": "24.2.0.2712019 (R2024b)",
+    "evidence": "SELF_CHECKED_NOT_HUMAN_AUDITED_NOT_FORMAL"
+  },
+  "independentOptical": {
+    "cases": 42,
+    "passed": 42,
+    "allPassed": true,
+    "plans": 361,
+    "cells": 3470,
+    "visits": 1491,
+    "prunes": 1134,
+    "maximumOwnerBound_m": 19.39619237101977,
+    "maximumCsvPositionResidual_m": 6.915300366811402e-12,
+    "codeAnalyzer": {
+      "candidate": {
+        "AGROW": 52,
+        "ISCL": 10,
+        "FGREN": 4
+      },
+      "baseline": {
+        "AGROW": 45,
+        "ISCL": 10,
+        "FGREN": 4
+      }
+    },
+    "status": "SELF_CHECKED_NOT_HUMAN_AUDITED_NOT_FORMAL"
+  },
+  "sourceHashes": {
+    "historical_root_v0.5.4": {
+      "path": "SOURCE_WORKSPACE\\Desktop\\数学建模\\codex\\CUMCM2026解题\\问题四\\q4_solver.m",
+      "sha256": "daf265c6f82c76c92bbdb63c2a61424e3566b0ef3bdd7b3703141a6e3e2af3bf",
+      "expected": "daf265c6f82c76c92bbdb63c2a61424e3566b0ef3bdd7b3703141a6e3e2af3bf",
+      "unchanged": true
+    },
+    "task18_v0.5.5": {
+      "path": "SOURCE_WORKSPACE\\Desktop\\数学建模\\codex\\CUMCM2026解题\\问题四\\内部记录\\第3点5项_联合约束冻结验收_20260912_18\\candidate\\q4_solver.m",
+      "sha256": "75eeba6db86e8a52d3d891cb81299387f71116e584dc87b854ceacc55cf1fd23",
+      "expected": "75eeba6db86e8a52d3d891cb81299387f71116e584dc87b854ceacc55cf1fd23",
+      "unchanged": true
+    },
+    "task21_v0.6.0": {
+      "path": "SOURCE_WORKSPACE\\Desktop\\数学建模\\codex\\CUMCM2026解题\\问题四\\内部记录\\独立重审与覆盖重构_20260912_21\\candidate\\q4_solver.m",
+      "sha256": "0c78112cd34d8caab78fea5c9f622f0100bd82eb1d765534dbbefce22f776917",
+      "expected": "0c78112cd34d8caab78fea5c9f622f0100bd82eb1d765534dbbefce22f776917",
+      "unchanged": true
+    },
+    "baseline_v0.6.2": {
+      "path": "SOURCE_WORKSPACE\\Desktop\\数学建模\\codex\\CUMCM2026解题\\问题四\\内部记录\\覆盖与服务停点共享_20260912_22\\step_candidate\\q4_solver.m",
+      "sha256": "eae757dc0d18ec81d48e1ac14af80702b31a89ae37806820db5b00a4771a11ec",
+      "expected": "eae757dc0d18ec81d48e1ac14af80702b31a89ae37806820db5b00a4771a11ec",
+      "unchanged": true
+    },
+    "adopted_v0.9.0": {
+      "path": "SOURCE_WORKSPACE\\Desktop\\数学建模\\codex\\CUMCM2026解题\\问题四\\内部记录\\主动定位与清除联合规划_20260913_25\\adaptive_candidate\\q4_solver.m",
+      "sha256": "1663216f1d25d15be7c085c8b8625b2b68f6e1c7d63e338a0fe5b98029f804df",
+      "expected": "1663216f1d25d15be7c085c8b8625b2b68f6e1c7d63e338a0fe5b98029f804df",
+      "unchanged": true
+    }
+  },
+  "matlabProcesses": 13,
+  "activeOwnProcesses": 0,
+  "successfulConstructedExecutions": 72,
+  "failedConstructedExecutions": 3,
+  "finalUniqueMainCases": 42,
+  "newUniqueMainCases": 21,
+  "historicalSeenMainCasesNow": 196,
+  "formalRuns": 0,
+  "globalMemoryFilesModified": false,
+  "status": "CLOSEOUT_COMPLETE_ALGORITHM_USER_ADOPTED_PAPER_WORK_NEXT",
+  "unresolved": [
+    "Human mathematical review",
+    "Paper figures and prose",
+    "Final release entry and historical fixture review",
+    "No general 500 s/source guarantee"
+  ]
+}

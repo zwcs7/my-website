@@ -1,0 +1,276 @@
+{
+  "caseCode": "T2Z9-5W6V-XRH4-YQ3D",
+  "sourceCount": 16,
+  "omnidirectional": 7,
+  "directional": 9,
+  "cleared": 16,
+  "virtualTime_s": 4390.272523,
+  "meanTimePerSource_s": 274.3920326875,
+  "lastClearTime_s": 4390.272523,
+  "afterLastClear_s": 0.0,
+  "beforeLastClearPerSource_s": 274.3920326875,
+  "targetGap_s": -3609.7274770000004,
+  "costComponents_s": {
+    "movement_s": 3413.2725252385444,
+    "measurement_s": 735.0,
+    "switching_s": 135.0,
+    "successful_clear_s": 80.0,
+    "failed_clear_s": 27.0
+  },
+  "phaseCosts": [
+    {
+      "phase": "enter",
+      "actions": 1.0,
+      "movement_s": 0.0,
+      "measurement_s": 0.0,
+      "switching_s": 0.0,
+      "successful_clear_s": 0.0,
+      "failed_clear_s": 0.0,
+      "step_s": 0.0
+    },
+    {
+      "phase": "coverage",
+      "actions": 117.0,
+      "movement_s": 1487.0403960399385,
+      "measurement_s": 585.0,
+      "switching_s": 111.0,
+      "successful_clear_s": 0.0,
+      "failed_clear_s": 0.0,
+      "step_s": 2183.0403960399385
+    },
+    {
+      "phase": "local_measure",
+      "actions": 30.0,
+      "movement_s": 1637.2114019813075,
+      "measurement_s": 150.0,
+      "switching_s": 24.0,
+      "successful_clear_s": 0.0,
+      "failed_clear_s": 0.0,
+      "step_s": 1811.2114019813077
+    },
+    {
+      "phase": "certified_clear",
+      "actions": 8.0,
+      "movement_s": 74.11838106842586,
+      "measurement_s": 0.0,
+      "switching_s": 0.0,
+      "successful_clear_s": 40.0,
+      "failed_clear_s": 0.0,
+      "step_s": 114.11838106842585
+    },
+    {
+      "phase": "optical_fallback",
+      "actions": 17.0,
+      "movement_s": 214.9023461488723,
+      "measurement_s": 0.0,
+      "switching_s": 0.0,
+      "successful_clear_s": 40.0,
+      "failed_clear_s": 27.0,
+      "step_s": 281.90234614887237
+    },
+    {
+      "phase": "exit",
+      "actions": 1.0,
+      "movement_s": 0.0,
+      "measurement_s": 0.0,
+      "switching_s": 0.0,
+      "successful_clear_s": 0.0,
+      "failed_clear_s": 0.0,
+      "step_s": 0.0
+    }
+  ],
+  "channelServices": [
+    {
+      "channel": 4,
+      "service_s": 271.34283735277415,
+      "service_move_s": 254.34283735277415,
+      "failed_clears": 0.0,
+      "local_measures": 2,
+      "local_no_signal": 0,
+      "local_sequence": "direction,direction"
+    },
+    {
+      "channel": 11,
+      "service_s": 238.72582334847033,
+      "service_move_s": 213.72582334847033,
+      "failed_clears": 3.0,
+      "local_measures": 2,
+      "local_no_signal": 2,
+      "local_sequence": "no_signal,no_signal"
+    },
+    {
+      "channel": 6,
+      "service_s": 220.46546800848205,
+      "service_move_s": 203.46546800848205,
+      "failed_clears": 0.0,
+      "local_measures": 2,
+      "local_no_signal": 0,
+      "local_sequence": "direction,direction"
+    },
+    {
+      "channel": 16,
+      "service_s": 194.52229993723313,
+      "service_move_s": 172.52229993723313,
+      "failed_clears": 0.0,
+      "local_measures": 3,
+      "local_no_signal": 0,
+      "local_sequence": "direction,direction,direction"
+    },
+    {
+      "channel": 15,
+      "service_s": 186.6088984299408,
+      "service_move_s": 164.6088984299408,
+      "failed_clears": 0.0,
+      "local_measures": 3,
+      "local_no_signal": 0,
+      "local_sequence": "direction,direction,direction"
+    },
+    {
+      "channel": 5,
+      "service_s": 185.49910889396358,
+      "service_move_s": 165.49910889396358,
+      "failed_clears": 1.0,
+      "local_measures": 2,
+      "local_no_signal": 0,
+      "local_sequence": "direction,direction"
+    },
+    {
+      "channel": 9,
+      "service_s": 158.51162345894346,
+      "service_move_s": 141.5116234589435,
+      "failed_clears": 2.0,
+      "local_measures": 1,
+      "local_no_signal": 0,
+      "local_sequence": "direction"
+    },
+    {
+      "channel": 10,
+      "service_s": 140.11561337636877,
+      "service_move_s": 129.11561337636877,
+      "failed_clears": 0.0,
+      "local_measures": 1,
+      "local_no_signal": 0,
+      "local_sequence": "direction"
+    },
+    {
+      "channel": 12,
+      "service_s": 109.67349746968006,
+      "service_move_s": 95.67349746968006,
+      "failed_clears": 1.0,
+      "local_measures": 1,
+      "local_no_signal": 0,
+      "local_sequence": "direction"
+    },
+    {
+      "channel": 8,
+      "service_s": 102.63468754942895,
+      "service_move_s": 87.63468754942895,
+      "failed_clears": 0.0,
+      "local_measures": 2,
+      "local_no_signal": 1,
+      "local_sequence": "no_signal,direction"
+    },
+    {
+      "channel": 17,
+      "service_s": 92.07148613689606,
+      "service_move_s": 81.07148613689606,
+      "failed_clears": 0.0,
+      "local_measures": 1,
+      "local_no_signal": 0,
+      "local_sequence": "direction"
+    },
+    {
+      "channel": 7,
+      "service_s": 89.32782025977323,
+      "service_move_s": 67.32782025977323,
+      "failed_clears": 0.0,
+      "local_measures": 3,
+      "local_no_signal": 1,
+      "local_sequence": "direction,no_signal,direction"
+    },
+    {
+      "channel": 1,
+      "service_s": 81.97228178500018,
+      "service_move_s": 58.97228178500018,
+      "failed_clears": 0.0,
+      "local_measures": 3,
+      "local_no_signal": 0,
+      "local_sequence": "direction,direction,direction"
+    },
+    {
+      "channel": 20,
+      "service_s": 49.32747096524746,
+      "service_move_s": 32.327470965247464,
+      "failed_clears": 2.0,
+      "local_measures": 1,
+      "local_no_signal": 0,
+      "local_sequence": "direction"
+    },
+    {
+      "channel": 3,
+      "service_s": 49.121179867185376,
+      "service_move_s": 32.121179867185376,
+      "failed_clears": 0.0,
+      "local_measures": 2,
+      "local_no_signal": 0,
+      "local_sequence": "direction,direction"
+    },
+    {
+      "channel": 2,
+      "service_s": 37.31203235921828,
+      "service_move_s": 26.31203235921828,
+      "failed_clears": 0.0,
+      "local_measures": 1,
+      "local_no_signal": 0,
+      "local_sequence": "direction"
+    }
+  ],
+  "actions": 174,
+  "requestResponsePairs": 174,
+  "retries": 0,
+  "transportErrors": 0,
+  "maximumAccountingResidual_s": 3.5284501791466027e-06,
+  "checks": {
+    "serialized": true,
+    "payload_body_id": true,
+    "matching_response": true,
+    "accepted_responses": true,
+    "resolved_transport": true,
+    "actions_request_response_bijection": true,
+    "action_order_binding": true,
+    "response_time_binding": true,
+    "clear_preserves_receiver": true,
+    "official_rounding_accounting": true,
+    "position_channel_binding": true,
+    "measurement_response_binding": true,
+    "bearing_binding": true,
+    "clear_response_binding": true,
+    "unique_successful_channels": true,
+    "gui_case_binding": true,
+    "gui_full_clear": true,
+    "normal_complete_exit": true,
+    "matlab_exit_zero": true,
+    "frozen_candidate_source_binding": true,
+    "complete_time_binding": true,
+    "cost_vector_binding": true,
+    "history_prefix_binding": true,
+    "joint_silence_does_not_expand_polygon": true,
+    "certificate_vertex_coverage": true,
+    "certificate_history_action_binding": true,
+    "certified_clear_serials": true,
+    "local_budget_and_two_silence_limit": true,
+    "ring_geometry_independent_certificate": true,
+    "ring_stop_rule_binding": true,
+    "cleared_or_certified_absent_all_channels": true,
+    "public_prefix_schedule_and_target_binding": true,
+    "independent_adaptive_optical_cover_and_progress": true
+  },
+  "failures": [],
+  "allPassed": true,
+  "limits": [
+    "Different practice cases cannot establish comparative improvement.",
+    "Source coordinates and axes not read; saved hull certificates checked, human proof review pending.",
+    "Last-clear time is retrospective and not a lawful stop rule when total count is unknown."
+  ],
+  "status": "SELF_CHECKED_NOT_HUMAN_AUDITED_NOT_FORMAL"
+}

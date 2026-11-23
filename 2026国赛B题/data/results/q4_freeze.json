@@ -1,0 +1,47 @@
+{
+  "frozenUtc": "2026-09-12T16:47:56.643238+00:00",
+  "candidate": "SOURCE_WORKSPACE\\Desktop\\数学建模\\codex\\CUMCM2026解题\\问题四\\内部记录\\主动定位与清除联合规划_20260913_25\\adaptive_candidate\\q4_solver.m",
+  "baseline": "SOURCE_WORKSPACE\\Desktop\\数学建模\\codex\\CUMCM2026解题\\问题四\\内部记录\\覆盖与服务停点共享_20260912_22\\step_candidate\\q4_solver.m",
+  "candidateSha256": "1663216f1d25d15be7c085c8b8625b2b68f6e1c7d63e338a0fe5b98029f804df",
+  "baselineSha256": "eae757dc0d18ec81d48e1ac14af80702b31a89ae37806820db5b00a4771a11ec",
+  "settings": {
+    "layout": "ring22",
+    "strategy": "safe",
+    "optical": "nearest",
+    "serviceOrder": "joint_steps",
+    "coverageOrder": "open_route",
+    "opportunistic": false,
+    "coveragePolicy": "fixed",
+    "tailMinimumClears": 15,
+    "localPolicy": "active_clear"
+  },
+  "futureHoldoutSeed": 2026091325,
+  "scenarioCount": 21,
+  "development": {
+    "cases": 21,
+    "allCleared": true,
+    "meanTime_s": 5963.923463425624,
+    "meanBaseline_s": 6978.161857947511,
+    "meanChangePercent": -14.534463590390335,
+    "pooledSecondsPerSource": 416.08768349481096,
+    "equalCaseMeanSecondsPerSource": 429.8708163384168,
+    "target500": 15,
+    "regressions": 1,
+    "worstRegressionPercent": 5.7061950230645,
+    "maxWallTime_s": 13.9655248,
+    "actions": 6097,
+    "decisions": 1209,
+    "status": "SELF_CHECKED_NOT_HUMAN_AUDITED_NOT_FORMAL"
+  },
+  "validation": {
+    "passed": 133,
+    "total": 133,
+    "allPassed": true,
+    "mutations": 3,
+    "decisionChecks": 94,
+    "matlab": "24.2.0.2712019 (R2024b)",
+    "evidence": "SELF_CHECKED_NOT_HUMAN_AUDITED_NOT_FORMAL"
+  },
+  "status": "FROZEN_RESEARCH_CANDIDATE_NOT_PRODUCTION",
+  "scope": "Actual public feedback only; finite hypotheses rank actions and never certify absence or truth; source files and parameters fixed before generating S25 scenes."
+}

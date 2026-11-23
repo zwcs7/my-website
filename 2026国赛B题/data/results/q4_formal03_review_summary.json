@@ -1,0 +1,268 @@
+{
+  "caseCode": "Q8VR-WKV3-ZG96-YKNH",
+  "sourceCount": null,
+  "omnidirectional": null,
+  "directional": null,
+  "cleared": 14,
+  "virtualTime_s": 6476.206084,
+  "meanTimePerSource_s": 462.58614885714286,
+  "lastClearTime_s": 6268.565247,
+  "afterLastClear_s": 207.64083699999992,
+  "beforeLastClearPerSource_s": 447.75466050000006,
+  "targetGap_s": -523.7939159999996,
+  "costComponents_s": {
+    "movement_s": 5013.2060849450245,
+    "measurement_s": 1165.0,
+    "switching_s": 219.0,
+    "successful_clear_s": 70.0,
+    "failed_clear_s": 9.0
+  },
+  "phaseCosts": [
+    {
+      "phase": "enter",
+      "actions": 1.0,
+      "movement_s": 0.0,
+      "measurement_s": 0.0,
+      "switching_s": 0.0,
+      "successful_clear_s": 0.0,
+      "failed_clear_s": 0.0,
+      "step_s": 0.0
+    },
+    {
+      "phase": "coverage",
+      "actions": 211.0,
+      "movement_s": 3333.056930324422,
+      "measurement_s": 1055.0,
+      "switching_s": 198.0,
+      "successful_clear_s": 0.0,
+      "failed_clear_s": 0.0,
+      "step_s": 4586.056930324422
+    },
+    {
+      "phase": "local_measure",
+      "actions": 22.0,
+      "movement_s": 1338.375293806022,
+      "measurement_s": 110.0,
+      "switching_s": 21.0,
+      "successful_clear_s": 0.0,
+      "failed_clear_s": 0.0,
+      "step_s": 1469.375293806022
+    },
+    {
+      "phase": "optical_fallback",
+      "actions": 13.0,
+      "movement_s": 317.16517867272387,
+      "measurement_s": 0.0,
+      "switching_s": 0.0,
+      "successful_clear_s": 50.0,
+      "failed_clear_s": 9.0,
+      "step_s": 376.16517867272387
+    },
+    {
+      "phase": "certified_clear",
+      "actions": 4.0,
+      "movement_s": 24.6086821418566,
+      "measurement_s": 0.0,
+      "switching_s": 0.0,
+      "successful_clear_s": 20.0,
+      "failed_clear_s": 0.0,
+      "step_s": 44.608682141856605
+    },
+    {
+      "phase": "exit",
+      "actions": 1.0,
+      "movement_s": 0.0,
+      "measurement_s": 0.0,
+      "switching_s": 0.0,
+      "successful_clear_s": 0.0,
+      "failed_clear_s": 0.0,
+      "step_s": 0.0
+    }
+  ],
+  "channelServices": [
+    {
+      "channel": 10,
+      "service_s": 224.37623774607195,
+      "service_move_s": 207.37623774607195,
+      "failed_clears": 0.0,
+      "local_measures": 2,
+      "local_no_signal": 0,
+      "local_sequence": "direction,direction"
+    },
+    {
+      "channel": 15,
+      "service_s": 210.28033586068932,
+      "service_move_s": 193.28033586068932,
+      "failed_clears": 0.0,
+      "local_measures": 2,
+      "local_no_signal": 0,
+      "local_sequence": "direction,direction"
+    },
+    {
+      "channel": 11,
+      "service_s": 181.88774693962787,
+      "service_move_s": 161.8877469396279,
+      "failed_clears": 1.0,
+      "local_measures": 2,
+      "local_no_signal": 0,
+      "local_sequence": "direction,direction"
+    },
+    {
+      "channel": 19,
+      "service_s": 166.95877962528408,
+      "service_move_s": 149.95877962528408,
+      "failed_clears": 0.0,
+      "local_measures": 2,
+      "local_no_signal": 0,
+      "local_sequence": "direction,direction"
+    },
+    {
+      "channel": 2,
+      "service_s": 158.73059367212463,
+      "service_move_s": 141.73059367212463,
+      "failed_clears": 0.0,
+      "local_measures": 2,
+      "local_no_signal": 0,
+      "local_sequence": "direction,direction"
+    },
+    {
+      "channel": 9,
+      "service_s": 141.6408462578603,
+      "service_move_s": 130.6408462578603,
+      "failed_clears": 0.0,
+      "local_measures": 1,
+      "local_no_signal": 0,
+      "local_sequence": "direction"
+    },
+    {
+      "channel": 8,
+      "service_s": 125.62288852679812,
+      "service_move_s": 114.62288852679814,
+      "failed_clears": 0.0,
+      "local_measures": 1,
+      "local_no_signal": 0,
+      "local_sequence": "direction"
+    },
+    {
+      "channel": 1,
+      "service_s": 117.4181994344588,
+      "service_move_s": 100.4181994344588,
+      "failed_clears": 0.0,
+      "local_measures": 2,
+      "local_no_signal": 0,
+      "local_sequence": "direction,direction"
+    },
+    {
+      "channel": 18,
+      "service_s": 109.2623041163741,
+      "service_move_s": 93.2623041163741,
+      "failed_clears": 0.0,
+      "local_measures": 2,
+      "local_no_signal": 0,
+      "local_sequence": "direction,direction"
+    },
+    {
+      "channel": 12,
+      "service_s": 105.32053983234175,
+      "service_move_s": 91.32053983234175,
+      "failed_clears": 1.0,
+      "local_measures": 1,
+      "local_no_signal": 0,
+      "local_sequence": "direction"
+    },
+    {
+      "channel": 5,
+      "service_s": 100.05631978028384,
+      "service_move_s": 86.05631978028383,
+      "failed_clears": 1.0,
+      "local_measures": 1,
+      "local_no_signal": 0,
+      "local_sequence": "direction"
+    },
+    {
+      "channel": 7,
+      "service_s": 97.36202976671007,
+      "service_move_s": 86.36202976671007,
+      "failed_clears": 0.0,
+      "local_measures": 1,
+      "local_no_signal": 0,
+      "local_sequence": "direction"
+    },
+    {
+      "channel": 3,
+      "service_s": 87.03871814839466,
+      "service_move_s": 70.03871814839466,
+      "failed_clears": 0.0,
+      "local_measures": 2,
+      "local_no_signal": 0,
+      "local_sequence": "direction,direction"
+    },
+    {
+      "channel": 13,
+      "service_s": 64.1936149135831,
+      "service_move_s": 53.19361491358311,
+      "failed_clears": 0.0,
+      "local_measures": 1,
+      "local_no_signal": 0,
+      "local_sequence": "direction"
+    }
+  ],
+  "actions": 252,
+  "requestResponsePairs": 252,
+  "retries": 0,
+  "transportErrors": 0,
+  "maximumAccountingResidual_s": 2.007809712267772e-06,
+  "checks": {
+    "serialized": true,
+    "payload_body_id": true,
+    "matching_response": true,
+    "accepted_responses": true,
+    "resolved_transport": true,
+    "actions_request_response_bijection": true,
+    "action_order_binding": true,
+    "response_time_binding": true,
+    "clear_preserves_receiver": true,
+    "official_rounding_accounting": true,
+    "position_channel_binding": true,
+    "measurement_response_binding": true,
+    "bearing_binding": true,
+    "clear_response_binding": true,
+    "unique_successful_channels": true,
+    "gui_case_binding": true,
+    "accepted_unique_clear_count": true,
+    "gui_formal_mode_binding": true,
+    "formal_source_and_authorization": true,
+    "formal_algorithm_settings": true,
+    "formal_log_upload_confirmed": true,
+    "formal_source_total_not_assumed": true,
+    "normal_complete_exit": true,
+    "matlab_exit_zero": true,
+    "frozen_candidate_source_binding": true,
+    "complete_time_binding": true,
+    "cost_vector_binding": true,
+    "history_prefix_binding": true,
+    "certificate_vertex_coverage": true,
+    "certificate_history_action_binding": true,
+    "certified_clear_serials": true,
+    "local_budget_and_two_silence_limit": true,
+    "actual_per_channel_ring_coverage": true,
+    "ring_geometry_independent_certificate": true,
+    "ring_stop_rule_binding": true,
+    "cleared_or_certified_absent_all_channels": true,
+    "public_prefix_schedule_and_target_binding": true,
+    "independent_adaptive_optical_cover_and_progress": true
+  },
+  "failures": [],
+  "allPassed": true,
+  "limits": [
+    "Different formal cases cannot establish comparative improvement; total source count is not disclosed.",
+    "Source coordinates and axes not read; saved hull certificates checked, human proof review pending.",
+    "Last-clear time is retrospective and not a lawful stop rule when total count is unknown."
+  ],
+  "status": "FORMAL_RUN_SELF_CHECKED_NOT_HUMAN_AUDITED",
+  "programRunTime_s": 21.973,
+  "programRunTimeMethod": "Difference between accepted exit and enter response real_timestamp_ms",
+  "clientElapsed_s": 22.392353600000003,
+  "officialTotalDisclosed": false,
+  "uploadStatus": "uploaded"
+}

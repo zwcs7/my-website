@@ -1,0 +1,11 @@
+root = fileparts(mfilename('fullpath'));
+config = jsondecode(fileread(fullfile(root,'formal02_receipt.json')));
+config.flexPolicy = "step_free";
+config.mobileMode = "incoming";
+config.workPolicy = "macro_scan";
+config.showProgressWindow = false;
+config.formalAuthorization = '20260913_K28A_ALGORITHM_THREE_Q3_FORMAL';
+config.authorizedFormalRun = 2;
+fprintf('MATLAB_VERSION=%s\n',version);
+result = q3_formal("formal",config);
+fprintf('FINAL_RESULT=%s\n',jsonencode(result));

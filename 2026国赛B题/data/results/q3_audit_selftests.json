@@ -1,0 +1,68 @@
+{
+  "fixture": "SOURCE_WORKSPACE\\Desktop\\数学建模\\codex\\CUMCM2026解题\\问题三\\内部记录\\联合信息路线重构_20260913_210\\screen03\\003_scout_audit.json",
+  "checks": [
+    {
+      "name": "unaltered_real_record",
+      "passed": true,
+      "rejected": false,
+      "error": ""
+    },
+    {
+      "name": "total_time_corruption",
+      "passed": true,
+      "rejected": true,
+      "error": "AssertionError: "
+    },
+    {
+      "name": "future_negative_used_for_retirement",
+      "passed": true,
+      "rejected": true,
+      "error": "AssertionError: retirement used future negative"
+    },
+    {
+      "name": "wrong_retirement_radius",
+      "passed": true,
+      "rejected": true,
+      "error": "AssertionError: "
+    },
+    {
+      "name": "fake_retirement_point",
+      "passed": true,
+      "rejected": true,
+      "error": "AssertionError: unproved retirement cover"
+    },
+    {
+      "name": "discarded_retirement_source",
+      "passed": true,
+      "rejected": true,
+      "error": "AssertionError: retirement used future negative"
+    },
+    {
+      "name": "extra_scout_budget",
+      "passed": true,
+      "rejected": true,
+      "error": "AssertionError: "
+    },
+    {
+      "name": "missing_relocation_history",
+      "passed": true,
+      "rejected": true,
+      "error": "AssertionError: discarded future work without proof"
+    },
+    {
+      "name": "premature_absence",
+      "passed": true,
+      "rejected": true,
+      "error": "AssertionError: early unproved absence"
+    },
+    {
+      "name": "altered_hidden_truth",
+      "passed": true,
+      "rejected": true,
+      "error": "AssertionError: physical measurement mismatch"
+    }
+  ],
+  "passed": 10,
+  "total": 10,
+  "scope": "Independent auditor mutation tests; not new solver scenes or human audit."
+}
